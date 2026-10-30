@@ -147,13 +147,98 @@ namespace NativeGameHub
                     Release = "2015",
                     Description = "Bom tấn thế giới mở số 1 mọi thời đại. Tự do tung hoành trên đường phố Los Santos cùng bộ ba giang hồ Michael, Franklin và gã điên Trevor trong những phi vụ thế kỷ kịch tính.",
                     ExecutablePath = @"E:\Grand Theft Auto V Legacy\PlayGTAV.exe",
-                    Arguments = "",
+                    Arguments = "-nobattleye",
                     WorkingDirectory = @"E:\Grand Theft Auto V Legacy",
                     Folder = @"E:\Grand Theft Auto V Legacy",
                     CoverUrl = "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/271590/library_600x900_2x.jpg",
                     HeroUrl = "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/271590/library_hero.jpg",
                     ThemeColor = "#E67700",
                     Tags = new List<string> { "🌴 Los Santos", "🇻🇳 Việt Hóa", "⚡ Mượt 60 FPS", "⭐ Huyền Thoại" }
+                },
+                new GameInfo
+                {
+                    Id = "wukong",
+                    Name = "Black Myth: Wukong",
+                    Developer = "Game Science",
+                    Genre = "Hành Động / Nhập Vai / Thần Thoại",
+                    Release = "2024",
+                    Description = "Hóa thân thành Thiên Mệnh Nhân, dấn thân vào hành trình Tây Du đầy hiểm nguy và kỳ vĩ để tìm lại những mảnh lục căn thất lạc của Tề Thiên Đại Thánh Tôn Ngộ Không.",
+                    ExecutablePath = @"E:\Black Myth Wukong\b1.exe",
+                    Arguments = "",
+                    WorkingDirectory = @"E:\Black Myth Wukong",
+                    Folder = @"E:\Black Myth Wukong",
+                    CoverUrl = "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2358720/library_600x900_2x.jpg",
+                    HeroUrl = "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/2358720/library_hero.jpg",
+                    ThemeColor = "#E5A93C",
+                    Tags = new List<string> { "🐒 Tề Thiên Đại Thánh", "🔥 Siêu Phẩm 2024", "⚡ Unreal Engine 5", "⭐ AAA Đỉnh Cao" }
+                },
+                new GameInfo
+                {
+                    Id = "cyberpunk2077",
+                    Name = "Cyberpunk 2077: Phantom Liberty",
+                    Developer = "CD PROJEKT RED",
+                    Genre = "Thế Giới Mở / Bắn Súng / RPG",
+                    Release = "2023",
+                    Description = "Dấn thân vào thành phố tương lai rực rỡ ánh đèn neon Night City trong vai lính đánh thuê V cùng huyền thoại nhạc rock Johnny Silverhand (Keanu Reeves).",
+                    ExecutablePath = @"E:\Cyberpunk 2077\bin\x64\Cyberpunk2077.exe",
+                    Arguments = "",
+                    WorkingDirectory = @"E:\Cyberpunk 2077",
+                    Folder = @"E:\Cyberpunk 2077",
+                    CoverUrl = "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1091500/library_600x900_2x.jpg",
+                    HeroUrl = "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1091500/library_hero.jpg",
+                    ThemeColor = "#FCEE0A",
+                    Tags = new List<string> { "🦾 Night City", "🔥 Keanu Reeves", "⚡ Siêu Phẩm Ray Tracing", "🚀 Cyberpunk" }
+                },
+                new GameInfo
+                {
+                    Id = "rdr2",
+                    Name = "Red Dead Redemption 2",
+                    Developer = "Rockstar Games",
+                    Genre = "Thế Giới Mở / Viễn Tây / Hành Động",
+                    Release = "2018",
+                    Description = "Kiệt tác miền Tây hoang dã số 1 lịch sử làng game. Theo chân tay súng Arthur Morgan và băng đảng Van der Linde trong những năm tháng suy tàn của thời đại cao bồi tự do.",
+                    ExecutablePath = @"E:\Red Dead Redemption 2\RDR2.exe",
+                    Arguments = "",
+                    WorkingDirectory = @"E:\Red Dead Redemption 2",
+                    Folder = @"E:\Red Dead Redemption 2",
+                    CoverUrl = "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1174180/library_600x900_2x.jpg",
+                    HeroUrl = "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1174180/library_hero.jpg",
+                    ThemeColor = "#C1121F",
+                    Tags = new List<string> { "🤠 Cao Bồi Viễn Tây", "🏆 Game Của Thập Kỷ", "🐎 Arthur Morgan", "⭐ Điểm Tuyệt Đối 10/10" }
+                },
+                new GameInfo
+                {
+                    Id = "eldenring",
+                    Name = "Elden Ring",
+                    Developer = "FromSoftware",
+                    Genre = "Thế Giới Mở / Soulslike / Hành Động",
+                    Release = "2022",
+                    Description = "Vươn mình trở thành Chúa Tể Elden trong thế giới kỳ ảo Lands Between huyền bí được chắp bút bởi đạo diễn Hidetaka Miyazaki và tác giả George R.R. Martin.",
+                    ExecutablePath = @"E:\ELDEN RING\Game\eldenring.exe",
+                    Arguments = "",
+                    WorkingDirectory = @"E:\ELDEN RING",
+                    Folder = @"E:\ELDEN RING",
+                    CoverUrl = "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1245620/library_600x900_2x.jpg",
+                    HeroUrl = "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1245620/library_hero.jpg",
+                    ThemeColor = "#C69214",
+                    Tags = new List<string> { "💍 Game Of The Year", "⚔️ FromSoftware", "🔥 Thế Giới Mở", "💀 Thử Thách Cực Hạn" }
+                },
+                new GameInfo
+                {
+                    Id = "godofwar",
+                    Name = "God of War",
+                    Developer = "Santa Monica Studio",
+                    Genre = "Hành Động / Chặt Chém / Thần Thoại",
+                    Release = "2022",
+                    Description = "Chiến thần Kratos cùng con trai Atreus bước vào cuộc hành trình sinh tử qua cửu giới Bắc Âu đầy tuyết lạnh, đối đầu với những quái thú và các vị thần hùng mạnh.",
+                    ExecutablePath = @"E:\God of War\GoW.exe",
+                    Arguments = "",
+                    WorkingDirectory = @"E:\God of War",
+                    Folder = @"E:\God of War",
+                    CoverUrl = "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1593500/library_600x900_2x.jpg",
+                    HeroUrl = "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1593500/library_hero.jpg",
+                    ThemeColor = "#3A86C8",
+                    Tags = new List<string> { "🪓 Chiến Thần Kratos", "❄️ Thần Thoại Bắc Âu", "🎮 PlayStation Hit", "🏆 Đỉnh Cao Hành Động" }
                 }
             };
 
@@ -166,7 +251,7 @@ namespace NativeGameHub
 
             if (filter == "action")
             {
-                _filteredGames = _allGames.Where(g => g.Genre.Contains("Hành Động") || g.Genre.Contains("Bắn Súng")).ToList();
+                _filteredGames = _allGames.Where(g => g.Genre.Contains("Hành Động") || g.Genre.Contains("Bắn Súng") || g.Genre.Contains("Thế Giới Mở") || g.Genre.Contains("Nhập Vai") || g.Genre.Contains("Chặt Chém")).ToList();
             }
             else if (filter == "horror")
             {
@@ -180,6 +265,9 @@ namespace NativeGameHub
             {
                 _filteredGames = new List<GameInfo>(_allGames);
             }
+
+            TabAll.Content = $"Tất Cả ({_allGames.Count})";
+            TabInstalled.Content = $"Đã Cài Đặt ({_allGames.Count(g => g.IsInstalled)})";
 
             RenderCards();
 
@@ -231,14 +319,23 @@ namespace NativeGameHub
                     CornerRadius = new CornerRadius(16),
                     Margin = new Thickness(0, 0, 18, 0),
                     Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString("#141820")),
-                    BorderBrush = Brushes.Transparent,
-                    BorderThickness = new Thickness(2),
-                    ClipToBounds = true,
+                    BorderBrush = new SolidColorBrush(Color.FromArgb(40, 255, 255, 255)),
+                    BorderThickness = new Thickness(1.5),
                     Cursor = Cursors.Hand,
                     Tag = game,
                     RenderTransform = transformGroup,
                     RenderTransformOrigin = new Point(0.5, 0.5)
                 };
+
+                // Tight clipping mask so image and gradients never bleed out of rounded corners
+                var maskBorder = new Border
+                {
+                    Width = 148,
+                    Height = 216,
+                    CornerRadius = new CornerRadius(15),
+                    Background = Brushes.Black
+                };
+                cardBorder.OpacityMask = new VisualBrush(maskBorder);
 
                 var grid = new Grid();
 
@@ -404,7 +501,7 @@ namespace NativeGameHub
                 TagsPanel.Children.Add(pill);
             }
 
-            // Update Active Card visual
+            // Update Active Card visual with tight rounded borders
             foreach (var child in CardsContainer.Children)
             {
                 if (child is Border b && b.Tag is GameInfo g)
@@ -413,27 +510,45 @@ namespace NativeGameHub
                     {
                         var col = (Color)ColorConverter.ConvertFromString(game.ThemeColor);
                         b.BorderBrush = new SolidColorBrush(col);
+                        b.BorderThickness = new Thickness(2.5);
                         b.Effect = new DropShadowEffect
                         {
                             Color = col,
-                            BlurRadius = 24,
+                            BlurRadius = 26,
                             ShadowDepth = 0,
-                            Opacity = 0.5
+                            Opacity = 0.65
                         };
                         b.BringIntoView();
                     }
                     else
                     {
-                        b.BorderBrush = Brushes.Transparent;
+                        b.BorderBrush = new SolidColorBrush(Color.FromArgb(40, 255, 255, 255));
+                        b.BorderThickness = new Thickness(1.5);
                         b.Effect = null;
                     }
                 }
             }
 
-            // Update Play button color
+            // Update Play button color and text depending on installation status
             if (PlayBtn.Template.FindName("BtnBorder", PlayBtn) is Border border)
             {
-                border.Background = new SolidColorBrush((Color)ColorConverter.ConvertFromString(game.ThemeColor));
+                border.Background = game.IsInstalled
+                    ? new SolidColorBrush((Color)ColorConverter.ConvertFromString(game.ThemeColor))
+                    : new SolidColorBrush((Color)ColorConverter.ConvertFromString("#21262D"));
+            }
+            if (PlayBtn.Template.FindName("PlayBtnText", PlayBtn) is TextBlock btnText)
+            {
+                btnText.Text = game.IsInstalled ? "CHƠI NGAY" : "CHƯA CÀI ĐẶT";
+                btnText.Foreground = game.IsInstalled
+                    ? new SolidColorBrush((Color)ColorConverter.ConvertFromString("#090B0E"))
+                    : new SolidColorBrush((Color)ColorConverter.ConvertFromString("#C9D1D9"));
+            }
+            if (PlayBtn.Template.FindName("PlayBtnIcon", PlayBtn) is TextBlock btnIcon)
+            {
+                btnIcon.Text = game.IsInstalled ? "▶" : "○";
+                btnIcon.Foreground = game.IsInstalled
+                    ? new SolidColorBrush((Color)ColorConverter.ConvertFromString("#090B0E"))
+                    : new SolidColorBrush((Color)ColorConverter.ConvertFromString(game.StatusBadgeColor));
             }
         }
 
@@ -443,7 +558,9 @@ namespace NativeGameHub
 
             if (!_selectedGame.IsInstalled)
             {
-                MessageBox.Show($"Trò chơi '{_selectedGame.Name}' chưa hoàn tất cài đặt hoặc không tìm thấy file thực thi tại:\n\n{_selectedGame.ExecutablePath}", "Thông Báo", MessageBoxButton.OK, MessageBoxImage.Information);
+                NotInstalledGameNameText.Text = _selectedGame.Name;
+                NotInstalledDescText.Text = $"Tựa game '{_selectedGame.Name}' hiện chưa có trên máy tính của bạn (đang trưng bày dạng Showcase Demo trong bộ sưu tập).\n\nKhi nào bạn tải hoặc cài đặt game vào ổ cứng (E:\\...), Aurora Game Hub sẽ tự động nhận diện và sẵn sàng khởi động!";
+                NotInstalledOverlay.Visibility = Visibility.Visible;
                 return;
             }
 
@@ -635,6 +752,11 @@ namespace NativeGameHub
         private void Close_Click(object sender, RoutedEventArgs e)
         {
             this.Close();
+        }
+
+        private void CloseNotInstalledOverlay_Click(object sender, RoutedEventArgs e)
+        {
+            NotInstalledOverlay.Visibility = Visibility.Collapsed;
         }
     }
 }
